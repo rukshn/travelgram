@@ -1,0 +1,12 @@
+<footer class="footer">
+  <p class="site-info">
+    Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme <a href="https://github.com/rukshn/travelgram" target="_blank">Travelgram</a> by <a href="https://github.com/rukshn/" target="_blank">Rukshan</a>
+    
+    <% if (config.author){ %>
+    &copy; <%= new Date().getFullYear() %> <%= config.author %>
+    <% } else { %>
+    &copy; <%= new Date().getFullYear() %> <%= config.title %>
+    <% } %>
+  </p>
+</footer>
